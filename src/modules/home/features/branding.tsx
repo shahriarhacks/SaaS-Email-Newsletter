@@ -15,16 +15,14 @@ const Branding = () => {
       </div>
       <Marquee className="w-full flex justify-around">
         {partners.map((i: PartnersTypes, index: number) => (
-          <>
-            <Image
-              src={i.url}
-              key={index}
-              width={200}
-              height={200}
-              alt="partner"
-              className={`md:mx-8 w-[150px] md:w-[180px] mx-3`}
-            />
-          </>
+          <Image
+            src={i.url}
+            key={index}
+            width={200}
+            height={200}
+            alt="partner"
+            className={`md:mx-8 w-[150px] md:w-[180px] mx-3`}
+          />
         ))}
       </Marquee>
     </div>
