@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "./logo";
 import NavItems from "./nav.items";
-import Toolber from "./toolber";
+import Toolbar from "./toolber";
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         <NavItems />
       </div>
       <div className="flex items-center gap-3">
-        <Toolber />
+        <Toolbar />
       </div>
     </header>
   );
